@@ -24,6 +24,12 @@ const config = {
   ],
   module: {
     rules: [
+      // Use it when html file contains image tag with source
+      // npm install -D html-loader
+      // {
+      //   test: /\.(html)$/,
+      //   use: ['html-loader'],
+      // },
       {
         test: /\.(js|jsx)$/i,
         loader: 'babel-loader',
